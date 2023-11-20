@@ -1,0 +1,258 @@
+header {
+  height: 60px;
+  width: 100%;
+  padding: 0px 15px;
+  background-color: #7cc7e8;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  display: flex;
+} 
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #a9a9a9;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration:none;
+}
+
+.header-list li {
+  list-style: none;
+  float: left;
+  position: relative;
+  margin-left: 90px;
+  padding: 5px 5px;
+  }
+
+.header-logo {
+  color: green;
+  font-size: 30px;
+  float: left;
+  padding: 10px 40px;
+}
+
+.mobile-logo {
+  display: none;
+}
+
+.toggle-btn {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 70px;
+  top: 15px;
+  z-index: 2;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.toggle-btn__line {
+  background: #fff;
+  display: block;
+  height: 2px;
+  position: absolute;
+  transition: transform 0.5s;
+  width: 100%;
+}
+
+.toggle-btn__line--top {
+  top: 3px;
+}
+
+.toggle-btn__line--center {
+  top: 15px;
+}
+
+.toggle-btn__line--bottom {
+  top: 27px;
+}
+
+.toggle-btn__line--top.active {
+  top: 15px;
+  transform: rotate(45deg);
+}
+.toggle-btn__line--center.active {
+  transform: scaleX(0);
+}
+.toggle-btn__line--bottom.active {
+  top: 15px;
+  transform: rotate(135deg);
+}
+
+/* ナビゲーションメニュー
+==============================　*/
+.global-nav {
+  display: none;
+  position: fixed;
+  margin-left: -23px;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.global-nav__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.global-nav__item {
+  margin-bottom: 30px;
+}
+
+.global-nav__item a {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.global-nav__item a:hover {
+  opacity: 0.7;
+}
+
+.page-header {
+  /* 横に並べる */
+  display: flex;
+  /* 両端に設置する */
+  justify-content: space-between;
+}
+
+@media screen and (max-width:450px) {
+  header {
+    height: 60px;
+    width: 100%;
+    padding: 0px 15px;
+    background-color: #7cc7e8;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    display: flex;
+  } 
+  
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #a9a9a9;
+    text-align: center;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration:none;
+  }
+  
+  .header-list {
+    display: none;
+  }
+
+  .header-logo {
+    font-size: 25px;
+  }
+  
+  .toggle-btn {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 70px;
+    top: 15px;
+    z-index: 2;
+    cursor: pointer;
+    cursor: hand;
+  }
+  
+  .toggle-btn__line {
+    background: #fff;
+    display: block;
+    height: 2px;
+    position: absolute;
+    transition: transform 0.5s;
+    width: 100%;
+  }
+  
+  .toggle-btn__line--top {
+    top: 3px;
+  }
+  
+  .toggle-btn__line--center {
+    top: 15px;
+  }
+  
+  .toggle-btn__line--bottom {
+    top: 27px;
+  }
+  
+  .toggle-btn__line--top.active {
+    top: 15px;
+    transform: rotate(45deg);
+  }
+  .toggle-btn__line--center.active {
+    transform: scaleX(0);
+  }
+  .toggle-btn__line--bottom.active {
+    top: 15px;
+    transform: rotate(135deg);
+  }
+  
+  /* ナビゲーションメニュー
+  ==============================　*/
+  .global-nav {
+    display: none;
+    position: fixed;
+    margin-left: -23px;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .global-nav__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .global-nav__item {
+    margin-bottom: 30px;
+  }
+  
+  .global-nav__item a {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  
+  .global-nav__item a:hover {
+    opacity: 0.7;
+  }
+  
+  .page-header {
+    /* 横に並べる */
+    display: flex;
+    /* 両端に設置する */
+    justify-content: space-between;
+  }
+}

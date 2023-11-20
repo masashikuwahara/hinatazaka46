@@ -1,0 +1,6 @@
+{
+    "require": {
+        "abraham/twitteroauth": "^6.2",
+        "fabpot/goutte": "^4.0"
+    }
+}
