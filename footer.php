@@ -1,5 +1,5 @@
 <footer>
-    © All rights reserved by DayTripper.
+    © All rights reserved by hntsupport.
 </footer>
 </body>
 </html>

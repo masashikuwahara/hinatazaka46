@@ -132,6 +132,14 @@ a {
   justify-content: space-between;
 }
 
+.wrapper {
+  text-align: center;
+}
+
+.twitter-timeline {
+  margin: 0 auto;
+}
+
 @media screen and (max-width:450px) {
   header {
     height: 60px;
