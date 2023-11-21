@@ -1,5 +1,5 @@
 <footer>
-    © All rights reserved by hntsupport.
+    © All rights reserved by hinatasupport.
 </footer>
 </body>
 </html>

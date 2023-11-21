@@ -4,25 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>テストページ</title>
+  <title>日向坂46応援サイト(仮)</title>
 </head>
 <body>
 <?php require('header.php'); ?>
 <div class="wrapper">
-  <h1>index</h1>
-<?php
-require 'simple_html_dom.php';
-$url = 'https://www.hinatazaka46.com/s/official/?ima=0000';
-$html = file_get_html($url);
-$classToFind = 'p-news__item'; //タグ部分
-$hnt = 'https://www.hinatazaka46.com'; // URLドメイン部分
-foreach($html->find(".$classToFind") as $parentElement) {
-  foreach ($parentElement->find('a') as $link) {
-    $linkUrl = $link->href;
-    echo '<a href="' . $hnt . '' . $linkUrl . '">' . $link->plaintext . '</a><br>';
+<h1 class="blog">BLOG</h1>
+  <?php
+  require 'simple_html_dom.php';
+  $url = 'https://www.hinatazaka46.com/s/official/diary/member?ima=0000';
+  $html = file_get_html($url);
+  $classToFind = 'p-blog-top__list'; //タグ部分
+  $hnt = 'https://www.hinatazaka46.com'; // URLドメイン部分
+  foreach($html->find(".$classToFind") as $parentElement) {
+    foreach ($parentElement->find('a') as $link) {
+      $linkUrl = $link->href;
+      echo '<a href="' . $hnt . '' . $linkUrl . '">' . $link->plaintext . '</a><br>';
+    }
   }
-}
-?>
+  ?>
+  <h1>NEWS</h1>
+  <?php
+  $url = 'https://www.hinatazaka46.com/s/official/?ima=0000';
+  $html = file_get_html($url);
+  $classToFind = 'p-news__item'; //タグ部分
+  $hnt = 'https://www.hinatazaka46.com'; // URLドメイン部分
+  foreach($html->find(".$classToFind") as $parentElement) {
+    foreach ($parentElement->find('a') as $link) {
+      $linkUrl = $link->href;
+      echo '<a href="' . $hnt . '' . $linkUrl . '">' . $link->plaintext . '</a><br>';
+    }
+  }
+  ?>
 </div>
 <a class="twitter-timeline" data-width="500" data-height="650" href="https://twitter.com/hinatazaka46?ref_src=twsrc%5Etfw">Tweets by hinatazaka46</a> 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
