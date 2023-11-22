@@ -19,21 +19,44 @@ footer {
   text-align: center;
 }
 
+body {
+  background-color: #fff4ea;
+}
+
 li {
   list-style: none;
 }
 
-a {
+.header-list__item a {
   text-decoration:none;
+  color: #fff;
+}
+
+.header-list__item a:hover {
+  opacity: 0.7;
+}
+
+table {
+  margin-right: auto; 
+  margin-left: auto;
+}
+
+img{
+  width: 350px;
 }
 
 .header-list li {
   list-style: none;
   float: left;
   position: relative;
-  margin-left: 90px;
-  padding: 5px 5px;
+  margin-left: 50px;
+  padding: 5px 0px;
+  font-weight: bold;
   }
+
+.header-list {
+  margin-left: 250px;
+}  
 
 .header-logo {
   color: green;
@@ -135,6 +158,7 @@ a {
 
 .wrapper {
   text-align: center;
+  margin: auto 400px;
 }
 
 .twitter-timeline {
@@ -142,6 +166,25 @@ a {
 }
 
 .blog {
+  margin-top: 70px;
+}
+
+.test {
+  font-size: 30px;
+  color: crimson;
+  position: absolute;
+  margin-top: 300px;
+}
+
+.box {
+  width: 100%;
+  height: 300px;
+  border: 1px solid #000;
+  overflow-y: scroll;
+  margin-bottom: 30px;
+}
+
+.mem {
   margin-top: 70px;
 }
 
@@ -173,9 +216,22 @@ a {
   a {
     text-decoration:none;
   }
+
+  table {
+    margin-right: auto; 
+    margin-left: auto;
+  }
+  
+  img{
+    width: 150px;
+  }
   
   .header-list {
     display: none;
+  }
+
+  .header-list__item {
+    
   }
 
   .header-logo {
@@ -267,5 +323,10 @@ a {
     display: flex;
     /* 両端に設置する */
     justify-content: space-between;
+  }
+
+  .wrapper {
+    text-align: center;
+    margin: 0;
   }
 }
