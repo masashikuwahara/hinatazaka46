@@ -16,9 +16,9 @@
   <nav class="global-nav">
     <div class="global-nav__inner">
       <ul class="global-nav__list">
-        <li class="global-nav__item"><a href="#">このページについて</a></li>
-        <li class="global-nav__item"><a href="#">メンバー</a></li>
-        <li class="global-nav__item"><a href="#">ディスコグラフィー</a></li>
+        <li class="global-nav__item"><a href="about.php">このページについて</a></li>
+        <li class="global-nav__item"><a href="member.php">メンバー</a></li>
+        <li class="global-nav__item"><a href="discography.php">ディスコグラフィー</a></li>
       </ul>
       <div class="test">
         test
