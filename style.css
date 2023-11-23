@@ -165,8 +165,8 @@ img{
   margin: 0 auto;
 }
 
-.blog {
-  margin-top: 70px;
+.title {
+  margin-top: 80px;
 }
 
 .test {
@@ -182,10 +182,6 @@ img{
   border: 1px solid #000;
   overflow-y: scroll;
   margin-bottom: 30px;
-}
-
-.mem {
-  margin-top: 70px;
 }
 
 @media screen and (max-width:450px) {
@@ -228,10 +224,6 @@ img{
   
   .header-list {
     display: none;
-  }
-
-  .header-list__item {
-    
   }
 
   .header-logo {

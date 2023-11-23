@@ -9,7 +9,7 @@
 <body>
 <?php require('header.php'); ?>
 <div class="wrapper">
-<h1 class="blog">BLOG</h1>
+<h1 class="title">BLOG</h1>
   <?php
   require 'simple_html_dom.php';
   $url = 'https://www.hinatazaka46.com/s/official/diary/member?ima=0000';
