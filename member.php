@@ -6,25 +6,25 @@
   <link rel="stylesheet" href="style.css">
   <title>日向坂46応援サイト(仮)</title>
   <style>
-  .pagetop {
-    cursor: pointer;
-    position: fixed;
-    right: 60px;
-    bottom: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 10%;
-    transition: .3s;
-    color: #00A6C4;
-    background: #87ceeb;
-    opacity: 0;
-  }
-  .pagetop:hover {
-    box-shadow: 0 0 10px #00A6C4;
-  }
+    .pagetop {
+      cursor: pointer;
+      position: fixed;
+      right: 60px;
+      bottom: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50px;
+      height: 50px;
+      border-radius: 10%;
+      transition: .3s;
+      color: #00A6C4;
+      background: #87ceeb;
+      opacity: 0;
+    }
+    .pagetop:hover {
+      box-shadow: 0 0 10px #00A6C4;
+    }
   </style>
 </head>
 <body>
