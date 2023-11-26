@@ -20,7 +20,7 @@ footer {
 }
 
 body {
-  background-color: #eff7ff;
+  background-color: #f9fcff;
 }
 
 li {
@@ -44,6 +44,10 @@ table {
 
 img {
   width: 350px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .header-list li {
@@ -184,6 +188,11 @@ img {
   border: 1px solid #000;
   overflow-y: scroll;
   margin-bottom: 30px;
+}
+
+.sns-list {
+  font-size: 25px;
+  color: rgb(0, 81, 255);
 }
 
 @media screen and (max-width:450px) {
