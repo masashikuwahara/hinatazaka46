@@ -42,6 +42,10 @@
   <a class="twitter-timeline" data-width="500" data-height="650" href="https://twitter.com/hinatazaka46?ref_src=twsrc%5Etfw">Tweets by hinatazaka46</a> 
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
+<div class="example2">
+    <div class="example3" style="margin-bottom: 30px;"></div>
+    <div class="example3" style="margin-top: 30px;"></div>
+</div>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="hamburger.js"></script>
 <?php require('footer.php'); ?>
