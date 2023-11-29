@@ -12,6 +12,9 @@
   <h1 class="title">SNS</h1>
   <h2>X</h2>
   <a href="https://twitter.com/hinatazaka46" target="_blank" rel="noopener noreferrer" class="sns-list">日向坂46公式X</a>
+  <h2>YouTube</h2>
+  <a href="https://www.youtube.com/channel/UCR0V48DJyWbwEAdxLL5FjxA" target="_blank" rel="noopener noreferrer" class="sns-list">日向坂46 OFFICIAL YouTube CHANNEL </a><br>
+  <a href="https://www.youtube.com/@hinatazakachannel/featured" target="_blank" rel="noopener noreferrer" class="sns-list">日向坂ちゃんねる</a>
   <h2>Instagram</h2>
   <a href="https://instagram.com/ushiosarina8_8" target="_blank" rel="noopener noreferrer" class="sns-list">潮紗理菜</a><br>
   <a href="https://www.instagram.com/katoshi.official/" target="_blank" rel="noopener noreferrer" class="sns-list">加藤史帆</a><br>
@@ -26,6 +29,10 @@
   <a href="https://instagram.com/nibuchan_akari" target="_blank" rel="noopener noreferrer" class="sns-list">丹生明里</a><br>
   <a href="https://instagram.com/hiyotan928_official" target="_blank" rel="noopener noreferrer" class="sns-list">濱岸ひより</a><br>
   <a href="https://instagram.com/matsudakonoka.yahos" target="_blank" rel="noopener noreferrer" class="sns-list">松田好花</a><br>
+</div>
+<div class="example2">
+  <div class="example3" style="margin-bottom: 30px;"></div>
+  <div class="example3" style="margin-top: 30px;"></div>
 </div>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="hamburger.js"></script>
