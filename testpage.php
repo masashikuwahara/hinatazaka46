@@ -13,10 +13,10 @@
   use Abraham\TwitterOAuth\TwitterOAuth;
   
   //認証情報４つ
-  $consumerKey         = '1pbp3Vm0OiM5wp3SdUvCvAxDJ';
-  $consumerSecret     = '3FxG75JOPC0CT9XF6eHlpPJ1KUL7kywiSrRxNfW4SsC6H4G0Rb';
-  $accessToken           = '1333330371497263106-51a2Xmsztk1JEF4XnFc2IkfgImghqI';
-  $accessTokenSecret  = 'sh9yCSrSmsfWbCrHFcESpA1eHHK5FEQRzuGxv4oLRe38u';
+  $consumerKey         = '';
+  $consumerSecret     = '';
+  $accessToken           = '';
+  $accessTokenSecret  = '';
   
   //接続
   $connection = new TwitterOAuth($consumerKey, $consumerSecret, $accessToken, $accessTokenSecret);
